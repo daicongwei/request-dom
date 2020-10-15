@@ -1,5 +1,9 @@
 # request-dom
 
+## vue项目封装axios
+```
+vue中封装请求dom，统一管理请求url
+```
 ## Project setup
 ```
 npm install
