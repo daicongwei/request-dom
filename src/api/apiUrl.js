@@ -1,6 +1,4 @@
+import request from "./request";
 
-
-export const apiUrl = {
-    swiperdata: { method: 'GET', url: '/home/swiperdata' },
-    wxlogin: { method: 'POST', url: '/users/wxlogin' },
-}
+export const swiperdata = params => request('get', '/home/swiperdata', params)
+export const wxlogin = params => request('post', '/users/wxlogin', params) 
